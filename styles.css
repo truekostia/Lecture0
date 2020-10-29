@@ -2,3 +2,14 @@ p {
 	color: green;
 	text-align: center;
 }
+@media (min-width: 500px) {
+	body {
+		background-color: red;
+	}
+}
+
+@media (max-width: 499px) {
+	body {
+		background-color: yellow;
+	}
+}

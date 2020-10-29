@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html><head>
-  <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>My Site!</title>
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type"><title>My Site!</title>
         <link rel="stylesheet" href="styles.css">
         <style>
-a:link {
-  background-color: transparent;
-  color: green;
-  text-decoration: none;
-}
+            a:link {
+                   background-color: transparent;
+                   color: green;
+                   text-decoration: none;
+            }
+            a:visited {
+                      color: #f55fcd;
+                      background-color: transparent;
+                      text-decoration: none;
+            }
 h2 {
   color: #28b5bd;
   text-align: center;
@@ -36,11 +42,7 @@ th, td {
 th {
   background-color: lightgrey;
 }
-a:visited {
-  color: #f55fcd;
-  background-color: transparent;
-  text-decoration: none;
-}
+
 #top {
   font-size: 36px;
   color:purple;
@@ -55,8 +57,10 @@ a:visited {
   font-weight: lighter;
   color: red;
 }
-</style></head><body style="color: rgb(0, 0, 0); background-color: yellow;" alink="#000099" link="#000099" vlink="#990099">
+</style></head><body style="color: rgb(0, 0, 0);" alink="#000099" link="#000099" vlink="#990099">
         <a href="hello.html">hello</a>
+        <a href="goodbye.html">goodbye</a>
+        <a href="smile.html">smile</a>
 <br>
 
         <h1 style="color: green; text-align: right;">Hello, world!</h1>
@@ -77,10 +81,12 @@ a:visited {
             <li>Зробити дипломну</li>
         </ul>
         <img src="kitty.jpg" alt ="Cat" style="border: 5px solid black; margin: 50px 0px; vertical-align: middle;" height="200" width="300">
-        <input placeholder="Full Name" name="name" type="text">
-        <button>Submit!</button>
+        <form>
+            <input placeholder="Full Name" name="name" type="password">
+            <button>Submit!</button>
+        </form>
         <div id="top" class = name>
-            This is the <span class="name">top</span> of my web page.
+            This is the <span class="name">top of</span>  my web page.
         </div>
         <div id="middle">
             This is the <span class="name">middle</span> of my web page.
@@ -90,11 +96,14 @@ a:visited {
         </div>
 
         <table>
-            <tbody><tr>
+            <thead>
+              <tr>
                  <th>Breed</th>
                  <th>Size</th>
                  <th>Color</th>
-            </tr>
+              </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>Looser</td>
                 <td>Small</td>
