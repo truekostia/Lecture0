@@ -2,6 +2,7 @@ p {
 	color: green;
 	text-align: center;
 }
+
 @media (min-width: 500px) {
 	body {
 		background-color: orange;
@@ -12,4 +13,58 @@ p {
 	body {
 		background-color: yellow;
 	}
+}
+
+a:link {
+	background-color: transparent;
+	color: green;
+	text-decoration: none;
+}
+a:visited {
+	  color: #f55fcd;
+	  background-color: transparent;
+	  text-decoration: none;
+}
+h2 {
+color: #28b5bd;
+text-align: center;
+}
+div {
+border: 5px dotted red;
+margin: 30px;
+padding: 20px;
+background-color: teal;
+width: 300px;
+height: 100px;
+font-family: Arial,sans-serif;
+font-size: 28px;
+font-weight: bold;
+}
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+}
+th, td {
+   border: 1px solid black;
+   padding: 5px;
+}
+th {
+background-color: lightgrey;
+}
+
+#top {
+ font-size: 36px;
+ color:purple;
+}
+#middle {
+	font-size: 24px;
+}
+#bottom {
+	font-size: 12px;
+}
+.name {
+  font-weight: lighter;
+  color: red;
 }

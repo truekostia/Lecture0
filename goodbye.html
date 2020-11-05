@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-         <title>My Webpage!</title>
+        <title>My Webpage!</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+            .row > div {
+                         padding: 20px;
+                         background-color: teal;
+                         border: 2px solid black;
+             }
+        </style>
     </head>
     <body>
-        Goodbye
         <a href="hello.html">hello</a>
         <a href="smile.html">smile</a>
         <a href="my_site.html">my_site</a>
+        <h1>Goodbye</h1>
+        <div class="alert alert-primary" role="alert">
+            Here is my alert!
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                This is first of two columns
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                This is second of two columns
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                This is third of two columns
+              </div>
+          </div>
+        </div>
     </body>
 </html>

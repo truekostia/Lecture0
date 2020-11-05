@@ -1,0 +1,39 @@
+h1 {
+  color: blue; }
+
+ul {
+  font-size: 14px;
+  color: lime; }
+
+ol {
+  font-size: 18px;
+  color: lime; }
+
+div {
+  font-size: 28px; }
+  div p {
+    color: red; }
+  div ul {
+    color: blueviolet; }
+
+.success, .warning, .error {
+  border: 5px dotted red;
+  margin: 30px;
+  padding: 20px;
+  font-family: Arial,sans-serif;
+  font-size: 18px;
+  font-weight: bold; }
+
+.success {
+  background-color: green; }
+
+.success {
+  background-color: green; }
+
+.warning {
+  background-color: yellow; }
+
+.error {
+  background-color: red; }
+
+/*# sourceMappingURL=variables.css.map */
